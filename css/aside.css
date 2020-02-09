@@ -1,0 +1,90 @@
+#aside__section {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  background-color: #d8d8d8;
+  border-right: 1px solid #c1c1c1;
+}
+#aside__title {
+  width: 95%;
+  height: 4%;
+  margin: 10px 0;
+}
+#aside__select__parameters {
+  width: 95%;
+  height: 6%;
+  margin: 10px;
+}
+#aside__select__inputs {
+  width: 95%;
+  height: 35%;
+}
+#aside__buttons__add-remove {
+  width: 95%;
+  height: 4%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+#aside__buttons__search-clear {
+  width: 95%;
+  height: 17%;
+  justify-content: space-between;
+  align-items: center;
+}
+select,
+button {
+  width: 100%;
+  padding: 5px 0;
+  margin-top: 5px;
+}
+.aside__input__text {
+  padding: 5px 0;
+  margin-top: 5px;
+}
+.select-parameters-button {
+  width: 20%;
+  box-shadow: 3px 3px 6px gray;
+  cursor: pointer;
+}
+i.fa-size {
+  font-size: 1rem;
+}
+i.fa-plus,
+.fa-color-blue {
+  color: blue;
+}
+i.fa-times,
+.fa-color-red {
+  color: red;
+}
+.big-button-green {
+  background-color: green;
+  color: #fff;
+  border: none;
+  box-shadow: 4px 4px 8px gray;
+  cursor: pointer;
+}
+.big-button-white {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  box-shadow: 4px 4px 8px gray;
+  cursor: pointer;
+}
+i.fa-search {
+  color: #fff;
+}
+.aside__flex {
+  display: flex;
+}
+.aside__flex--column {
+  flex-direction: column;
+}
+.aside__flex--row {
+  flex-direction: row;
+}

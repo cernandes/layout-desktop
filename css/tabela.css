@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+table thead th {
+  height: 30px;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+table tbody tr {
+  text-align: center;
+  height: 30px;
+  border-bottom: 1px solid #c1c1c1;
+}
+table tbody tr:nth-child(odd) {
+  background: #ebebeb;
+}
+.search-table{
+  width: 20%;
+  height: 65%;
+}
